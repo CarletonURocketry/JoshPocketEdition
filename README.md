@@ -11,11 +11,12 @@ Functions are super simple. If you ever have code that is constantly needing to 
 Function Declaration
 Not super necessary but we’re gonna do it anyway for the sake of organization. This is telling the compiler what the function is, what its return type is, and what necessary data is needed to make the function work.
 
-Ex: void myFunction(); 
-This tells the compiler that you have a function that:
-Void -> has no return type
-() -> has no necessary variables 
-
+``` C
+void myFunction(); 
+// This tells the compiler that you have a function that:
+// Void -> has no return type
+// () -> has no necessary variables  
+```
 Ex int myOtherFunction(int age, int name);
 This tells the compiler that you have a function that:
 Int -> returns an integer
