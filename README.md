@@ -17,17 +17,19 @@ void myFunction();
 // Void -> has no return type
 // () -> has no necessary variables  
 ```
-Ex int myOtherFunction(int age, int name);
-This tells the compiler that you have a function that:
-Int -> returns an integer
-(int age, int name) -> has two variables, an integer named age and another integer names age
+``` C
+int myOtherFunction(int age, int name);
+// This tells the compiler that you have a function that:
+// Int -> returns an integer, a simple number with no decimals
+// (int age, int name) -> has two variables, an integer named age and another integer names age
+```
 
-Function Definition and Formatting
+### Function Definition and Formatting
 After declaring the function above, you can now make the definition alongside the function “body”.
 
 ### General Code Format
 A basic detailing of what will be in each section of our code, what they do, and how they should be written.
-
+``` C
 // Start here, add names and all necessary copyright info
 // The first few lines will be meant for all the constants in our system. This includes:
 
@@ -62,7 +64,7 @@ Const
 etc.
 
 // Once we have completed the declaration section, we move onto actually creating our functions
-
+```
 
 
 ## Current Timeline
